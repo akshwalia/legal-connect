@@ -1,0 +1,10 @@
+.leftcontainer {
+    background-image: url(../assets/images/serviceSignUpBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 35%;
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}

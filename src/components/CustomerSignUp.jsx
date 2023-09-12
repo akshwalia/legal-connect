@@ -5,10 +5,7 @@ import googleLogo from '../assets/images/google.png'
 import facebookLogo from '../assets/images/facebook.png'
 import logo from '../assets/images/logo_nobg.png'
 import { useState } from 'react';
-
-const leftContainerStyle = {
-    backgroundImage: 'url(../assets/images/signupBackground.jpg)',
-}
+import customerstyles from '../styles/customerSignUp.module.css';
 
 export default function CustomerSignUp() {
     const [showMismatch, setShowMismatch] = useState(false);
@@ -28,7 +25,7 @@ export default function CustomerSignUp() {
 
     return (
         <div className={styles.wrapper}>
-            <div className={styles.leftcontainer} style={leftContainerStyle}> 
+            <div className={customerstyles.leftcontainer} > 
                 <Link to='/'>
                     <div className={styles.logo}>
                         <img src={logo} alt="" />

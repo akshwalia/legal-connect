@@ -5,6 +5,7 @@ import googleLogo from '../assets/images/google.png'
 import facebookLogo from '../assets/images/facebook.png'
 import logo from '../assets/images/logo_nobg.png'
 import { useState } from 'react';
+import serviceStyles from '../styles/serviceSignUp.module.css';
 
 const leftContainerStyle = {
     backgroundImage: 'url(../assets/images/serviceSignUpBackground.jpg)',
@@ -29,7 +30,7 @@ export default function ServiceSignUp() {
 
     return (
         <div className={styles.wrapper}>
-            <div className={styles.leftcontainer} style={leftContainerStyle}>
+            <div className={serviceStyles.leftcontainer} >
                 <Link to='/'>
                     <div className={styles.logo} style={{color: 'black'}}>
                         <img src={logo} alt="" style={{filter:'invert()'}}/>
