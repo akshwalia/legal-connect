@@ -7,7 +7,7 @@ import logo from '../assets/images/logo_nobg.png'
 import { useState } from 'react';
 
 const leftContainerStyle = {
-    backgroundImage: 'url(src/assets/images/serviceSignUpBackground.jpg)',
+    backgroundImage: 'url(../assets/images/serviceSignUpBackground.jpg)',
 }
 
 

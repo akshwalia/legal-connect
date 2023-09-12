@@ -7,7 +7,7 @@ import logo from '../assets/images/logo_nobg.png'
 import { useState } from 'react';
 
 const leftContainerStyle = {
-    backgroundImage: 'url(src/assets/images/signupBackground.jpg)',
+    backgroundImage: 'url(../assets/images/signupBackground.jpg)',
 }
 
 export default function CustomerSignUp() {
