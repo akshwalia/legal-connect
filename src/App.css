@@ -144,14 +144,17 @@ body {
   text-align: center;
 }
 
-
+.homepage_content {
+  transform: scale(1.2);
+}
 
 /* 
 .homepage_image{
   width: 50.5%;
 } */
 .homepage_image img{
-  width: 75rem;
+  height: 85vh;
+  width: auto;
 }
 
 

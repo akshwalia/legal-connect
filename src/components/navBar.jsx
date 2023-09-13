@@ -1,7 +1,11 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/images/logo_nobg.png";
+import SignUpDialogue from "./SignUpDialogue";
+import { useDisclosure } from "@chakra-ui/react";
 
 export default function Navbar() {
+    const { isOpen, onOpen, onClose } = useDisclosure();
+
     return (
         <nav className="navbar navbar-expand-lg py-2 px-2 mx-2">
             <div className="navbar_everything container-fluid mx-5">
@@ -62,6 +66,19 @@ export default function Navbar() {
                                 </button>
                             </Link>
                         </div>
+                        <div className="nav-item mx-2">
+
+                            <button
+                                type="button"
+                                className="btn mainButton btn-outline-info text-xs"
+                                id="login_button"
+                                onClick={onOpen}
+                            >
+                                SIGN UP
+                            </button>
+
+                        </div>
+                        <SignUpDialogue isOpen={isOpen} onClose={onClose} />
                     </ul>
                 </div>
             </div>

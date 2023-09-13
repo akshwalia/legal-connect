@@ -15,22 +15,14 @@ export default function HomeMain() {
                     {/* text on homepage */}
                     <h1 className="mainName">LEGALCONNECT</h1>
                     <p className="lead">CONNECTING LEGAL MINDS, BUILDING JUSTICE TOGETHER</p>
-                    <Link to='login'>
-                        <button
-                            type="button"
-                            className="btn mainButton btn-outline-info text-xs mx-1"
-                            id="login_button"
-                        >
-                            LOGIN
-                        </button>
-                    </Link>
+                    
                     <button
                         type="button"
                         className="btn mainButton btn-outline-info text-xs mx-2"
                         id="signup_button"
                         onClick={onOpen}
                     >
-                        SIGN UP
+                        JOIN NOW
                     </button>
                     <SignUpDialogue isOpen={isOpen} onClose={onClose} />
                 </div>
