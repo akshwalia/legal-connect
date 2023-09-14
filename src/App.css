@@ -7,7 +7,6 @@ body {
   padding-top: 0px;
 }
 
-
 .navbar {
   --bs-navbar-padding-y: 0.5rem !important;
   
@@ -130,32 +129,45 @@ body {
 }
 
 .translucentBackground {
-  width: 100vw;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
   align-items: center;
-  justify-content: space-between;
-  padding-left: 200px;
-  
-  
 }
 .mainName{
   font-family: 'Anton';
-  font-size: 6.2rem;
-  text-align: center;
+  font-size: 110px;
+  
 }
 
+
 .homepage_content {
-  transform: scale(1.2);
+  text-align: left;
+  flex: 1;
+  padding-left: 200px;
 }
 
 /* 
 .homepage_image{
   width: 50.5%;
 } */
-.homepage_image img{
-  height: 85vh;
-  width: auto;
+.homepage_image {
+  flex-shrink: 0;
+  align-self: self-end;
+  display: flex;
+  justify-content:flex-end;
 }
+.homepage_image img{
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (mx-width: 800px) {
+  .homepage_image {
+      display: none;
+  }
+}
+  
+
 
 
 .about{
@@ -164,6 +176,13 @@ body {
 }
 .about_heading{
   text-align: center;
+  font-family: 'Anton', monospace;
+  
+}
+
+.about_heading h1 {
+  letter-spacing: 2px;
+  font-size: 50px;
 }
 .about_content{
   display: flex;
@@ -179,30 +198,68 @@ body {
 }
 .about_content_image{
   width: 40%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 30px;
 }
 .about_content_image img{
-  width: 100%;
+  width: 250px;
 }
 
+#visionImage2 {
+  width: 300px;
+}
+.lead.first {
+  text-align: left;
+}
 
-.services_heading{
+.lead.second {
+  text-align: right;
+}
+
+.services_heading {
   text-align: center;
+  font-family: 'Anton';
 }
+
+.services_heading h1 {
+  letter-spacing: 1px;
+}
+
 .services_content{
   display: flex;
   justify-content: space-around;
   align-items: center;
   text-align: center;
+  gap: 10px;
+  
 }
 .service{
   width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.service h2 {
+  width: 70%;
+  text-align: center;
+  font-weight: bold;
+}
+
 .line{
   width: 0.3%;
   background-color: black;
   height: 520px;
 }
 
+.leftarrow, .rightarrow {
+  height: 520px;
+  width: 100px;
+  background-color: gray;
+  
+}
 
 .onboard{
   background-color: #D2AE6D;
@@ -213,6 +270,10 @@ body {
 .faqsection {
   background-color: #D2AE6D;
   height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 0 200px;
+  align-items: center;
 }
 
 .faqwrapper {
@@ -223,8 +284,9 @@ body {
 }
 
 .faqsection h2 {
-  text-align: center;
-  font-size: 2.5rem;
+  font-family: 'Anton',monospace;
+  
+  font-size: 4rem;
   margin-top: 3rem;
   margin-bottom: 2rem;
   color: #000000;
@@ -257,7 +319,7 @@ body {
   transition: max-height 1s;
 }
 
-svg {
+.faq svg {
   position: absolute;
   width: 30px;
   right: 20px;
@@ -272,3 +334,120 @@ svg {
   
 }
 
+.review{
+  padding: 5rem 5rem;
+  text-align: center;
+}
+.review_heading{
+  padding-bottom: 3rem;
+}
+.review_content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.review_box{
+  box-shadow: 1px 1px 20px 0.2px rgb(192, 191, 191);
+  /* width: 30%; */
+  transition: 0.3s;
+  margin: 1rem 1rem;
+  border-radius: 5px;
+}
+.review_box:hover{
+  box-shadow: 1px 1px 35px 0.2px rgb(202, 201, 201);
+  transition: 0.3s;
+  transform: scale(1.02);
+
+}
+.box_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box_image img{
+  width: 4rem;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+.box_name{
+  padding: 0.5rem 1rem;
+}
+.box_text{
+  padding: 0rem 1rem;
+}
+.box_top.box_name{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box_stars{
+  margin: 2rem 0rem;
+  display: flex;
+  justify-content: center;
+}
+
+.stars_rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 10px 0;
+}
+
+.box_stars svg {
+  fill: #031438;
+  width: 50px;
+}
+
+/* Style the footer container */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding-top: 50px;
+}
+
+/* Center the footer content */
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Style the logo */
+.footer-logo img {
+  width: 100px;
+  height: auto;
+}
+
+/* Style the contact information */
+.footer-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}
+
+/* Style the social media icons */
+.footer-social h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+/* Style the bottom section with copyright information */
+.footer-bottom {
+  text-align: center;
+  background-color: #222;
+  padding: 15px 0;
+  margin-top: 2rem;
+}

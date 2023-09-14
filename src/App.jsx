@@ -6,7 +6,10 @@ import ServicesProvided from './components/servicesProvided'
 import Vision from './components/Vision'
 import Navbar from './components/navBar'
 import HomeMain from './components/HomeMainContent'
+import ReviewSection from './components/ReviewSection'
 import { ChakraProvider, extendTheme } from '@chakra-ui/react'
+import Footer from './components/Footer'
+
 
 const theme = extendTheme({
   colors: {
@@ -34,6 +37,8 @@ function App() {
         <Vision />
         <ServicesProvided />
         <FAQ />
+        <ReviewSection />
+        <Footer />
       </ChakraProvider>
     </>
 

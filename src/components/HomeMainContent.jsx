@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import homePageImage from '../assets/images/test.png'
+import homePageImage from '../assets/images/homeBackground.png'
 
 import { useDisclosure } from "@chakra-ui/react";
 import SignUpDialogue from "./SignUpDialogue";

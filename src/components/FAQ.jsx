@@ -20,8 +20,9 @@ export default function FAQ() {
     };
     return (
         <section className="faqsection">
+            <h2>Frequently <br />Asked <br />Questions</h2>
             <div className="faqwrapper">
-                <h2>Frequently Asked Questions</h2>
+                
                 <div className={faq1 ? 'faq active' : 'faq'} onClick={toggleAnswer1}>
                     <div className="question">What is LegalConnect? {chevron}</div>
                     <div className="answer">
