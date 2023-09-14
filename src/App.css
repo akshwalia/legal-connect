@@ -161,7 +161,7 @@ body {
   height: auto;
 }
 
-@media screen and (mx-width: 800px) {
+@media screen and (max-width: 1200px) {
   .homepage_image {
       display: none;
   }
