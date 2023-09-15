@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import logo from "../assets/images/logo_nobg.png";
 import SignUpDialogue from "./SignUpDialogue";
 import { useDisclosure } from "@chakra-ui/react";
+import ministryLogo from "../assets/images/ministryLogo.png";
 
 export default function Navbar() {
     const { isOpen, onOpen, onClose } = useDisclosure();
@@ -10,12 +11,12 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg py-2 px-2 mx-2">
             <div className="navbar_everything container-fluid mx-5">
                 <img
-                    src={logo}
+                    src={ministryLogo}
                     alt=""
                     id="navbar_logo"
                     className=" rounded-full pt-1"
                 />
-                <h2 className="name_nav pt-1 mx-3">LegalConnect</h2>
+                
                 {/* left side of navbar */}
                 <button
                     className="navbar-toggler"

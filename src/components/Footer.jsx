@@ -1,4 +1,4 @@
-import logo from "../assets/images/logo_nobg.png";
+import logo from "../assets/images/ministryLogo.png";
 
 export default function Footer() {
     return (

@@ -30,7 +30,7 @@ export default function FAQ() {
                     </div>
                 </div>
                 <div className={faq2 ? 'faq active' : 'faq'} onClick={toggleAnswer2}>
-                    <div className="question">Why is xyz? {chevron}</div>
+                    <div className="question">Why should you trust us? {chevron}</div>
                     <div className="answer">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
                         sed, fuga consectetur odio, totam labore delectus beatae distinctio ab
@@ -39,7 +39,7 @@ export default function FAQ() {
                     </div>
                 </div>
                 <div className={faq3 ? 'faq active' : 'faq'} onClick={toggleAnswer3}>
-                    <div className="question">Why are you? {chevron}</div>
+                    <div className="question">Is my information safe? {chevron}</div>
                     <div className="answer">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
                         sed, fuga consectetur odio, totam labore delectus beatae distinctio ab
