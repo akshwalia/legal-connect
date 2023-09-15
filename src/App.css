@@ -269,6 +269,7 @@ body {
 }
 .onboard_heading{
   padding-bottom: 5rem;
+  font-family: 'Anton', monospace;
 }
 .onboard_step{
   display: flex;
@@ -401,6 +402,7 @@ body {
 }
 .review_heading{
   padding-bottom: 3rem;
+  font-family: 'Anton', monospace;
 }
 .review_content{
   display: flex;
