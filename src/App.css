@@ -288,7 +288,7 @@ body {
 }
 
 .onboard_line{
-  background-color: #ffffff;
+  background-color: black;
   width: 0.3%;
   height: 300px;
 }
@@ -315,7 +315,7 @@ body {
   height: 4px;
   width: 16%;
   float: right;
-  background-color: #ffffff;
+  background-color: black;
 }
 .onboard_2 .step_line{
   float: left !important;
@@ -334,6 +334,20 @@ body {
 .onboard img {
   width: 300px;
   height: auto;
+}
+
+
+.onboard .btn {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+
+.onboard .btn:hover {
+  background-color: #D2AE6D;
+  color: black;
+  cursor: pointer;
+  border: 2px solid black;
 }
 
 .faqsection {
