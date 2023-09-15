@@ -23,10 +23,7 @@ export default function ReviewSection() {
                     </div>
                     <div className="box_text">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                            delectus quas quisquam enim et culpa voluptas aliquid suscipit fugit
-                            consectetur in quia vitae recusandae aspernatur, neque veritatis magni
-                            non officia!
+                            "LegalConnect" made our legal service provider onboarding effortless. The user-friendly interface and responsive support team at LegalConnect were a big win. Compliance is a priority, and "LegalConnect" ensured we met all the requirements. Highly recommended.
                         </p>
                     </div>
                     <div className="box_bottom">
@@ -53,10 +50,7 @@ export default function ReviewSection() {
                     </div>
                     <div className="box_text">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                            delectus quas quisquam enim et culpa voluptas aliquid suscipit fugit
-                            consectetur in quia vitae recusandae aspernatur, neque veritatis magni
-                            non officia!
+                            "LegalConnect" is a powerful tool for legal firms. The platform's flexibility and commitment to compliance are remarkable. The support team's professionalism and responsiveness sealed the deal for us. "LegalConnect" is a must-have for efficient onboarding.
                         </p>
                     </div>
                     <div className="box_bottom">
@@ -83,13 +77,10 @@ export default function ReviewSection() {
                     </div>
                     <div className="box_text">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                            delectus quas quisquam enim et culpa voluptas aliquid suscipit fugit
-                            consectetur in quia vitae recusandae aspernatur, neque veritatis magni
-                            non officia!
+                            "LegalConnect" simplified our legal service provider onboarding. The platform is user-friendly, compliance-focused, and backed by an excellent support team. It's a valuable asset for any legal business looking to streamline onboarding.
                         </p>
                     </div>
-                    
+
                     <div className="box_bottom">
                         <div className="box_stars">
                             <div className="stars_rating">

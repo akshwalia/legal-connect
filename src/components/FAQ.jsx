@@ -22,11 +22,11 @@ export default function FAQ() {
         <section className="faqsection">
             <h2>Frequently <br />Asked <br />Questions</h2>
             <div className="faqwrapper">
-                
+
                 <div className={faq1 ? 'faq active' : 'faq'} onClick={toggleAnswer1}>
                     <div className="question">What is LegalConnect? {chevron}</div>
                     <div className="answer">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quibusdam temporibus nulla molestiae ipsam, quam saepe. Accusamus similique at accusantium harum, numquam deserunt voluptatem atque qui aperiam dolorum tenetur doloribus!
+                        LegalConnect is dedicated to revolutionizing the legal service industry in India. We strive to bring order to the fragmented sector by creating an inclusive e-marketplace where legal service providers, including advocates, lawyers, typewriters, and more, can connect, collaborate, and thrive
                     </div>
                 </div>
                 <div className={faq2 ? 'faq active' : 'faq'} onClick={toggleAnswer2}>
