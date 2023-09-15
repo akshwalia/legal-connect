@@ -9,6 +9,7 @@ import HomeMain from './components/HomeMainContent'
 import ReviewSection from './components/ReviewSection'
 import { ChakraProvider, extendTheme } from '@chakra-ui/react'
 import Footer from './components/Footer'
+import OnBoardSection from './components/OnBoardSection'
 
 
 const theme = extendTheme({
@@ -36,6 +37,7 @@ function App() {
         <HomeMain />
         <Vision />
         <ServicesProvided />
+        <OnBoardSection />
         <FAQ />
         <ReviewSection />
         <Footer />

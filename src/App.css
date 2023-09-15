@@ -263,12 +263,73 @@ body {
 
 .onboard{
   background-color: #D2AE6D;
-  height: 500px;
+  height: 1300px;
   text-align: center;
+  padding: 4rem 6rem;
+}
+.onboard_heading{
+  padding-bottom: 5rem;
+}
+.onboard_step{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.onboard_1, .onboard_1_image, .onboard_3_image, .onboard_2_image, .onboard_2{
+  width: 45vw;
+  height: 300px;
+}
+.onboard_line{
+  background-color: #ffffff;
+  width: 0.3%;
+  height: 300px;
+}
+.onboard_1{
+  text-align: left;
+  
+}
+
+.stepOne, .stepTwo, .stepThree {
+  display: flex;
+  justify-content: center;
+}
+
+.onboard_1_image, .onboard_3_image{
+  width: 45vw;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+.onboard_2{
+  text-align: right;
+}
+.step_line{
+  height: 4px;
+  width: 16%;
+  float: right;
+  background-color: #ffffff;
+}
+.onboard_2 .step_line{
+  float: left !important;
+}
+.onboard_step_content p{
+  padding-right: 7rem;
+}
+.onboard_step_content h1{
+  padding: 1rem 0;
+}
+.onboard_2 p{
+  padding-left: 7rem !important;
+  padding-right: 0 !important;
+}
+
+.onboard img {
+  width: 300px;
+  height: auto;
 }
 
 .faqsection {
-  background-color: #D2AE6D;
+  background-color: #e4e3e3;
   height: 500px;
   display: grid;
   grid-template-columns: 1fr 2fr;
