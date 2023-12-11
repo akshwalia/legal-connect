@@ -11,7 +11,7 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg py-2 px-2 mx-2">
             <div className="navbar_everything container-fluid mx-5">
                 <img
-                    src={ministryLogo}
+                    src={logo}
                     alt=""
                     id="navbar_logo"
                     className=" rounded-full pt-1"
