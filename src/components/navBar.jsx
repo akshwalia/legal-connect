@@ -10,12 +10,7 @@ export default function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg py-2 px-2 mx-2">
             <div className="navbar_everything container-fluid mx-5">
-                <img
-                    src={logo}
-                    alt=""
-                    id="navbar_logo"
-                    className=" rounded-full pt-1"
-                />
+                
                 
                 {/* left side of navbar */}
                 <button
